@@ -19,10 +19,10 @@ class _Travel_MainState extends State<Travel_Main> {
       appBar: AppBar(
         title: Center(
           child: RichText(
-            text: const TextSpan(
+            text:  TextSpan(
                 text: "Go",
                 style: TextStyle(
-                    color: Colors.blue,
+                    color: Colors.blueGrey,
                     fontWeight: FontWeight.bold,
                     fontSize: 20),
                 children: [
@@ -35,10 +35,9 @@ class _Travel_MainState extends State<Travel_Main> {
                 ]),
           ),
         ),
-        actions: const [
+        actions:  [
           CircleAvatar(
-            backgroundColor: Colors.blue,
-          ),
+            backgroundColor: Colors.blueGrey[900],          ),
           SizedBox(
             width: 10,
           ),
@@ -64,22 +63,21 @@ class _Travel_MainState extends State<Travel_Main> {
             const SizedBox(
               height: 20,
             ),
-            const Row(
+             Row(
               mainAxisAlignment: MainAxisAlignment.center,
               children: [
                 Text(
                   'Popular Resorts',
                   style: TextStyle(
-                      color: Colors.black,
-                      fontWeight: FontWeight.bold,
-                      fontSize: 15),
+                      color:Colors.blueGrey[900],                      fontWeight: FontWeight.bold,
+                      fontSize: 18),
                 ),
                 SizedBox(
                   width: 160,
                 ),
                 Text(
                   'View All',
-                  style: TextStyle(color: Colors.black, fontSize: 15),
+                  style: TextStyle(color: Colors.blueGrey[900],fontSize: 17),
                 ),
               ],
             ),

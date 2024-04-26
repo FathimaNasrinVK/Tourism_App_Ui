@@ -158,13 +158,13 @@ class Travel_Details extends StatelessWidget {
             const SizedBox(
               height: 10,
             ),
-            const Padding(
+             Padding(
               padding: EdgeInsets.symmetric(horizontal: 30),
               child: Row(
                 children: [
                   Icon(
                     Icons.local_parking,
-                    color: Colors.blue,
+                    color:Colors.blueGrey[900],
                     size: 15,
                   ),
                   SizedBox(
@@ -173,7 +173,7 @@ class Travel_Details extends StatelessWidget {
                   Text(
                     'Parking',
                     style: TextStyle(
-                        color: Colors.blue,
+                        color:Colors.blueGrey[900],
                         fontSize: 15,
                         fontWeight: FontWeight.bold),
                   ),
@@ -182,7 +182,7 @@ class Travel_Details extends StatelessWidget {
                   ),
                   Icon(
                     Icons.headset_mic_outlined,
-                    color: Colors.blue,
+                    color:Colors.blueGrey[900],
                     size: 15,
                   ),
                   SizedBox(
@@ -191,7 +191,7 @@ class Travel_Details extends StatelessWidget {
                   Text(
                     '24x7 Support',
                     style: TextStyle(
-                        color: Colors.blue,
+                        color:Colors.blueGrey[900],
                         fontSize: 15,
                         fontWeight: FontWeight.bold),
                   ),
@@ -200,7 +200,7 @@ class Travel_Details extends StatelessWidget {
                   ),
                   Icon(
                     Icons.wifi,
-                    color: Colors.blue,
+                    color:Colors.blueGrey[900],
                     size: 15,
                   ),
                   SizedBox(
@@ -209,7 +209,7 @@ class Travel_Details extends StatelessWidget {
                   Text(
                     'Free Wifi',
                     style: TextStyle(
-                        color: Colors.blue,
+                        color:Colors.blueGrey[900],
                         fontSize: 15,
                         fontWeight: FontWeight.bold),
                   ),
@@ -228,7 +228,7 @@ class Travel_Details extends StatelessWidget {
                       image: NetworkImage(resort['image']), fit: BoxFit.cover)),
             ),
             const SizedBox(
-              height: 20,
+              height: 30,
             ),
             const Padding(
               padding: EdgeInsets.symmetric(horizontal: 20),
@@ -245,7 +245,7 @@ class Travel_Details extends StatelessWidget {
               ),
             ),
             const SizedBox(
-              height: 20,
+              height: 30,
             ),
             Padding(
               padding: const EdgeInsets.symmetric(horizontal: 40),
@@ -254,7 +254,9 @@ class Travel_Details extends StatelessWidget {
                   Container(
                     width: 50,
                     height: 30,
-                    decoration: BoxDecoration(color: Colors.blue.shade200,borderRadius: const BorderRadius.all(Radius.circular(5))),
+                    decoration: BoxDecoration(
+                        color:Colors.blueGrey,
+                        borderRadius: const BorderRadius.all(Radius.circular(5))),
                     child: const Column(
                       children: [
                         Text('Adult',style: TextStyle(fontWeight: FontWeight.bold,fontSize: 10),),
@@ -262,11 +264,13 @@ class Travel_Details extends StatelessWidget {
                       ],
                     ),
                   ),
-                  const SizedBox(width: 30,),
+                  const SizedBox(width: 40,),
                   Container(
                     width: 50,
                     height: 30,
-                    decoration: BoxDecoration(color: Colors.blue.shade200,borderRadius: const BorderRadius.all(Radius.circular(5))),
+                    decoration: BoxDecoration(
+                        color:Colors.blueGrey,
+                        borderRadius: const BorderRadius.all(Radius.circular(5))),
                     child: const Column(
                       children: [
                         Text('Adult',style: TextStyle(fontWeight: FontWeight.bold,fontSize: 10),),
@@ -274,11 +278,14 @@ class Travel_Details extends StatelessWidget {
                       ],
                     ),
                   ),
-                  const SizedBox(width: 30,),
+                  const SizedBox(width: 40,),
                   Container(
                     width: 50,
                     height: 30,
-                    decoration: BoxDecoration(color: Colors.blue.shade200,borderRadius: const BorderRadius.all(Radius.circular(5))),
+                    decoration: BoxDecoration(
+                        color:Colors.blueGrey,
+
+                        borderRadius: const BorderRadius.all(Radius.circular(5))),
                     child: const Column(
                       children: [
                         Text('Adult',style: TextStyle(fontWeight: FontWeight.bold,fontSize: 10),),
@@ -286,11 +293,13 @@ class Travel_Details extends StatelessWidget {
                       ],
                     ),
                   ),
-                  const SizedBox(width: 30,),
+                  const SizedBox(width: 40,),
                   Container(
                     width: 50,
                     height: 30,
-                    decoration: BoxDecoration(color: Colors.blue.shade200,borderRadius: const BorderRadius.all(Radius.circular(5))),
+                    decoration: BoxDecoration(
+                        color:Colors.blueGrey,
+                        borderRadius: const BorderRadius.all(Radius.circular(5))),
                     child: const Column(
                       children: [
                         Text('Adult',style: TextStyle(fontWeight: FontWeight.bold,fontSize: 10),),
@@ -302,12 +311,11 @@ class Travel_Details extends StatelessWidget {
               ),
             ),
             const SizedBox(
-              height: 20,
+              height: 50,
             ),
             ElevatedButton(
                 style: ElevatedButton.styleFrom(
-                    backgroundColor: Colors.blue,
-                    padding: const EdgeInsets.symmetric(horizontal: 80),
+                    backgroundColor: Colors.blueGrey[900],                    padding: const EdgeInsets.symmetric(horizontal: 80),
                     shape: RoundedRectangleBorder(
                         borderRadius: BorderRadius.circular(5))),
                 onPressed: () {},
@@ -316,7 +324,7 @@ class Travel_Details extends StatelessWidget {
                   style: TextStyle(
                       color: Colors.white,
                       fontWeight: FontWeight.bold,
-                      fontSize: 10),
+                      fontSize: 16),
                 )),
           ],
         ),

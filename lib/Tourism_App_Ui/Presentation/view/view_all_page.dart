@@ -59,8 +59,7 @@ class Travel_ViewAll extends StatelessWidget {
                             left: 10,
                             child: ElevatedButton(
                                 style: ElevatedButton.styleFrom(
-                                    backgroundColor: Colors.blue.shade700,
-                                    padding: const EdgeInsets.all(5),
+                                    backgroundColor: Colors.blueGrey[900],                                    padding: const EdgeInsets.all(5),
                                     shape: RoundedRectangleBorder(
                                         borderRadius:
                                         BorderRadius.circular(5))),
@@ -78,10 +77,10 @@ class Travel_ViewAll extends StatelessWidget {
                     )))
                     .toList()),
           ),
-          const SizedBox(height: 20,),
+          const SizedBox(height: 30,),
           ElevatedButton(
               style: ElevatedButton.styleFrom(
-                  backgroundColor: Colors.indigo,
+                  backgroundColor: Colors.blueGrey[900],
                   padding: const EdgeInsets.symmetric(horizontal: 80),
                   shape: RoundedRectangleBorder(
                       borderRadius:
@@ -92,7 +91,7 @@ class Travel_ViewAll extends StatelessWidget {
                 style: TextStyle(
                     color: Colors.white,
                     fontWeight: FontWeight.bold,
-                    fontSize: 10),
+                    fontSize: 16),
               )),
           const SizedBox(height: 50,)
         ],
